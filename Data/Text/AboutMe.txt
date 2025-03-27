@@ -1,7 +1,0 @@
-Hi, I’m Marc Blumrich, a Senior Game Engineer and Unreal Engine expert with a clear focus on multiplayer action games.
-
-While AI development being my core strength, I have broad experience across Animation, Sound, VFX, Materials, UI, and Automation Testing, making me highly adaptable to nearly all aspects of Unreal Engine development.
-
-My leadership experience stems from leading an interdisciplinary core gameplay team, supported by my background in Technical Art, VFX, and Game Design. This unique combination allows me to bridge disciplines effectively, ensuring seamless collaboration.
-
-Additional backend engineering expertise with Azure and Playfab and console optimization and development experience are rounding out my versatile technical toolkit, enabling me to deliver qualitative gameplay features highly efficiently.
