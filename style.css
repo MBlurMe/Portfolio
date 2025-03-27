@@ -22,6 +22,14 @@ body {
 	z-index: 1000;
 }
 
+
+@media (max-width: 768px) {
+	.navbar {
+		display: none;
+		/* Hide the navigation bar on small screens */
+	}
+}
+
 .nav-content {
 	max-width: 1200px;
 	margin: 0 auto;
