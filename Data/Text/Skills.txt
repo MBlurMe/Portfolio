@@ -1,0 +1,47 @@
+
+Leadership experience:
+Core Gameplay Team Lead on 'The Cycle'
+8 interdiscplinary teammembers
+Regular 1on1s,
+Focus on feedback culture 
+Responsibility for team output in these areas: PvP, Player abilties, AI Enemies
+
+Knowledge sharing by company presentations:
+- "Proof of Concept" (Prototyping workflow)
+- "Gamma correction"
+- "80 / 20 productivity rule"
+ 
+Coding Skills:
+C++
+C#
+Angelscript
+Lua
+3ds max script
+HLSL
+GLSL
+SQL
+
+Unreal: 
+AI
+EQS
+UI
+Material Editor
+VFX
+Replication
+Animation Blueprints
+Automation Test Framework
+
+Backend:
+Playfab
+Azure
+Redis
+
+Tools:
+Jenkins 
+Github
+Perforce
+Jira
+
+
+
+ 

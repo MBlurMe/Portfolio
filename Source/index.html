@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Marc Blumrich Senior Game Engineer</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="nav-content">
+			<div class="logo">Marc Blumrich</div>
+			<ul class="nav-links">
+				<li><a href="#about">About me</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#professional">Professional Projects</a></li>
+				<li><a href="#personal">Personal Projects</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<div class="social-links">
+				<a href="https://www.linkedin.com/in/marc-cornelius-blumrich-439b0a82/" target="_blank"
+					title="LinkedIn Profile">
+					<i class="fab fa-linkedin"></i>
+				</a>
+				<a href="mailto:MarcBlumrich@gmail.com" title="Email Me">
+					<i class="fas fa-envelope"></i>
+				</a>
+			</div>
+		</div>
+	</nav>
+
+	<section id="about" class="hero">
+		<div class="hero-content">
+			<div class="profile-section">
+				<div class="profile-image">
+					<img src="../Data/Images/MarcBlumrich.jpg" alt="Marc Blumrich">
+				</div>
+				<div class="quote-container">
+					<blockquote>
+						<p>"Hi, I'm <span class="highlight-blue">Marc Blumrich</span>, Senior Game Engineer and <span
+								class="highlight-blue">Unreal Engine expert</span>
+							with a clear focus on multiplayer action games."</p>
+					</blockquote>
+				</div>
+			</div>
+			<div class="about-text">
+				<div class="about-text-box">
+					<div class="about-icon">
+						<i class="fas fa-microchip"></i>
+					</div>
+					<p>While <span class="highlight-blue">AI development being my core strength</span>, I have broad
+						experience across Animation, Sound,
+						VFX, Materials, UI, and Automation Testing, making me highly adaptable to nearly <span
+							class="highlight-blue">all aspects of Unreal Engine</span>
+						development.</p>
+				</div>
+
+				<div class="about-text-box">
+					<div class="about-icon">
+						<i class="fas fa-users"></i>
+					</div>
+					<p>My leadership experience stems from <span class="highlight-blue">leading an interdisciplinary
+							core gameplay team</span>,
+						supported by my background in Technical Art, VFX, and Game Design. This unique combination
+						allows me to bridge disciplines effectively, ensuring seamless collaboration.</p>
+				</div>
+
+				<div class="about-text-box">
+					<div class="about-icon">
+						<i class="fas fa-gears"></i>
+					</div>
+					<p>Additional backend engineering experience with Azure and Playfab and console optimization and
+						development
+						are rounding out my versatile technical toolkit, enabling me to excel at delivering
+						<span class="highlight-blue">qualitative gameplay features highly efficiently</span>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="skills" class="skills">
+		<h2>Skills Overview</h2>
+		<div class="skills-grid">
+			<div class="skill-card">
+				<i class="fas fa-code"></i>
+				<h3>Programming Languages</h3>
+				<p>C++, C#, Angelscript, Lua, HLSL, GLSL</p>
+			</div>
+			<div class="skill-card">
+				<i class="fas fa-gamepad"></i>
+				<h3>Unreal Engine</h3>
+				<p>AI, EQS, UI, Material Editor, VFX: Cascade, Replication, Animation Blueprints, Automation Test
+					Framework</p>
+			</div>
+			<div class="skill-card">
+				<i class="fas fa-server"></i>
+				<h3>Backend & Tools</h3>
+				<p>Playfab, Azure, Redis, Jenkins, GitHub, Perforce</p>
+			</div>
+			<div class="skill-card">
+				<i class="fas fa-users"></i>
+				<h3>Leadership</h3>
+				<p>Core Gameplay Team Lead, Regular 1on1s, Focus on feedback culture
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="professional" class="projects">
+		<h2>Projects</h2>
+		<div class="project-grid">
+			<div class="project-card">
+				<div class="video-container">
+					<iframe src="https://www.youtube.com/embed/TjVU8x9f1XU" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<h3>Dune: Awakening (Co-Development)</h3>
+				<p class="project-date">Senior Game Engineer | 2023 - 2024</p>
+				<p class="project-type">MMO Action Game, Unreal Engine</p>
+				<ul class="project-details">
+					<li>Optimized performance for gameplay abilities utilizing Unreal Engine's Gameplay Ability System
+					</li>
+					<li>Developed advanced group marker functionality, incorporating delayed ping markers on the minimap
+						using server-to-server replication architecture</li>
+					<li>Implemented the foundational Guild system, enabling guild creation, membership management, and
+						role-based permissions using an SQL database</li>
+					<li>Implemented client-side caching and updates for social information (guild, location, group
+						status) to reduce server database queries</li>
+				</ul>
+				<div class="project-tech">
+					<span>Unreal Engine</span>
+					<span>C++</span>
+					<span>SQL</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="video-container">
+					<iframe src="https://www.youtube.com/embed/ENA-0SJWclc" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<h3>The Cycle: Frontier</h3>
+				<p class="project-date">Senior Game Engineer | 2021 - 2023</p>
+				<p class="project-type">Multiplayer PvEvP Extraction Shooter, Unreal Engine</p>
+				<ul class="project-details">
+					<li>Engineered a system for dynamic area spawning and despawning of gameplay elements, including
+						minerals, logic puzzles, loot containers, and guarding AI enemies</li>
+					<li>Added substantial runtime debugging tools for designers and QA to verify and control activity
+						and AI spawning
+					</li>
+					<li>Implemented a loot system in collaboration with designers to fine-tune loot chances and
+						distribution</li>
+					<li>Developed a tooling extension for DataTables to visualize the final outcome probability
+						calculations directly in the editor</li>
+					<li>Implemented a scalable matchmaking solution in Azure using a Redis database</li>
+					<li>Implemented a reconnect system to ensure players seamlessly return to active matches after
+						disconnection</li>
+				</ul>
+				<div class="project-tech">
+					<span>Unreal Engine</span>
+					<span>C++</span>
+					<span>Azure</span>
+					<span>Redis</span>
+					<span>Playfab</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="video-container">
+					<iframe src="https://www.youtube.com/embed/IReb74_4zIA" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<h3>The Cycle</h3>
+				<p class="project-date">Senior Game Engineer | 2019 - 2021</p>
+				<p class="project-type">Multiplayer PvEvP Competitive Quest Shooter, Unreal Engine</p>
+				<ul class="project-details">
+					<li>Implemented a scanning mechanic that allows players to reveal gameplay-relevant objects with
+						visual effects, UI and audio feedback</li>
+					<li>Created AI behaviors for monster and robot factions, differentiating their reactions and
+						behaviors</li>
+					<li>Supervised AI Blueprint scripting by designers</li>
+					<li>Developed a robust automation testing framework for AI systems</li>
+					<li>Designed and implemented an accurate damage and death recap system, including UI integration
+					</li>
+					<li>Developed player abilities such as deployable turrets and cloaking mechanics</li>
+					<li>Supervised designer-driven Blueprint implementations for gameplay logic</li>
+				</ul>
+				<div class="project-tech">
+					<span>Unreal Engine</span>
+					<span>C++</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="video-container">
+					<iframe src="https://www.youtube.com/embed/iE19Dz_2yF8" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<h3>Scavenger (Unreleased)</h3>
+				<p class="project-date">Senior Game Engineer | 2017</p>
+				<p class="project-type">Single-Player Stealth Action – Spaceship Scavenging</p>
+				<ul class="project-details">
+					<li>Prototyped player abilities for PvE action combat</li>
+					<li>Developed zero-gravity gameplay mechanics, enabling dynamic interactions between floating
+						gameplay objects</li>
+					<li>Implemented AI stealth behaviors, including reactions to noise, vision, and player actions</li>
+					<li>Created procedural level generation for spaceship interiors</li>
+				</ul>
+				<div class="project-tech">
+					<span>Unreal Engine</span>
+					<span>C++</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="project-image" style="background-image: url('../Data/Images/ProjectMisc.jpg');">
+				</div>
+				<h3>Various Action Game Prototypes</h3>
+				<p class="project-date">Senior Game Engineer | 2016 - 2017</p>
+				<p class="project-type">Unreal Engine</p>
+				<ul class="project-details">
+					<li>Implemented a replication-optimized foam gun system</li>
+					<li>Prototyped third-person melee combat, including animations and active blocking mechanics</li>
+					<li>Designed an RTS/shooter hybrid AI command system for vehicle and troop management</li>
+					<li>Developed a "Down but Not Out" gameplay mechanic using Unreal Engine's Gameplay Ability System
+					</li>
+					<li>Built an open-world AI spawn system for seamless enemy population</li>
+				</ul>
+				<div class="project-tech">
+					<span>Unreal Engine</span>
+					<span>C++</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="video-container">
+					<iframe src="https://www.youtube.com/embed/dMzN3ClYwP0" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<h3>Tinmen (Unreleased)</h3>
+				<p class="project-date">Senior Game Engineer | 2016</p>
+				<p class="project-type">Co-op Mech Action Game</p>
+				<ul class="project-details">
+					<li>Implemented mech player abilities, such as slow-down grenades and cluster missile attacks</li>
+					<li>Developed a mech loadout system with UI selection</li>
+					<li>Created a third-person mech weapon system featuring miniguns and railguns</li>
+					<li>Implemented AI enemies for both melee and ranged combat</li>
+					<li>Prototyped enemy swarming mechanics, allowing smaller enemies to climb and attack mechs
+						dynamically</li>
+				</ul>
+				<div class="project-tech">
+					<span>Unreal Engine</span>
+					<span>C++</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="video-container">
+					<iframe src="https://www.youtube.com/embed/DbaeU_hdWc8" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<h3>Dreadnought</h3>
+				<p class="project-date">Engineer | 2016</p>
+				<p class="project-type">Multiplayer Third-Person Spaceship Action Game, Unreal Engine</p>
+				<ul class="project-details">
+					<li>Optimized physics performance by deferring and clustering API calls without compromising
+						gameplay</li>
+					<li>Resolved critical performance bottlenecks and improved overall code efficiency</li>
+				</ul>
+				<div class="project-tech">
+					<span>Unreal Engine</span>
+					<span>C++</span>
+					<span>PlayStation 4</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="video-container">
+					<iframe src="https://www.youtube.com/embed/AWFaj4IQ4ro" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<h3>Dead Island II</h3>
+				<p class="project-date">Engineer | 2012 - 2015</p>
+				<p class="project-type">Cooperative Zombie Action Game, Unreal Engine</p>
+				<ul class="project-details">
+					<li>Created an advanced zombie sensing system to drive unique enemy behaviors and special attacks
+					</li>
+					<li>Developed distinct AI behaviors for human enemies, differentiating them from zombies</li>
+					<li>Designed a macro and micro-controlled spawn system for designers</li>
+					<li>Integrated spawn animation selection with real-time editor visualization</li>
+					<li>Implemented collision-based spawn validation with in-editor warnings</li>
+					<li>Developed logic for AI spawn/despawn based on player location and visibility</li>
+				</ul>
+				<div class="project-tech">
+					<span>Unreal Engine</span>
+					<span>C++</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="video-container">
+					<iframe src="https://www.youtube.com/embed/kIoJnMT3yUI" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<h3>Spec Ops: The Line</h3>
+				<p class="project-date">Technical Artist, VFX | 2007 - 2012 (incl. study breaks)</p>
+				<p class="project-type">Narrative-Driven Shooter, Unreal Engine</p>
+				<ul class="project-details">
+					<li>Developed performance-efficient non-AI enemies, enabling level designers to tightly control
+						enemy behaviors</li>
+					<li>Analyzed memory and rendering performance on consoles to guide level designers and artists to
+						reach targets</li>
+					<li>Created weapon muzzle and impact visual effects using Unreal Engine's Cascade VFX system</li>
+				</ul>
+				<div class="project-tech">
+					<span>Unreal Engine</span>
+					<span>VFX</span>
+					<span>PlayStation 3</span>
+					<span>XBox One</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="project-image" style="background-image: url('../Data/Images/ProjectMisc.jpg');">
+				</div>
+				<h3>Various Action Game Prototypes</h3>
+				<p class="project-date">Technical Artist | 2004 - 2006</p>
+				<ul class="project-details">
+					<li>Fine-tuned vehicle driving in a sci-fi themed PhysX demo</li>
+					<li>Provided tooling support for 3ds Max to streamline asset creation</li>
+					<li>Implemented destructible environment meshes and scripted gameplay logic.</li>
+				</ul>
+				<div class="project-tech">
+					<span>PhysX</span>
+					<span>3ds Max</span>
+					<span>Yager Engine</span>
+					<span>Lua</span>
+				</div>
+			</div>
+	</section>
+
+	<section id="personal" class="projects">
+		<h2>Personal Projects</h2>
+		<div class="project-grid">
+			<div class="project-card">
+				<div class="project-image" style="background-image: url('../Data/Images/ProjectMisc.jpg');">
+				</div>
+				<h3>2D Rendering Engine</h3>
+				<p class="project-date">2025</p>
+				<ul class="project-details">
+					<li>2D Rendering Terrain engine on separate render thread</li>
+					<li>Static and dynamic lighting</li>
+					<li>Terrain shaders written in GLSL</li>
+				</ul>
+				<div class="project-tech">
+					<span>C#</span>
+					<span>OpenGL</span>
+					<span>GLSL</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="project-image" style="background-image: url('../Data/Images/ProjectMisc.jpg');">
+				</div>
+				<h3>3D Rendering Engine</h3>
+				<p class="project-date">2007</p>
+				<ul class="project-details">
+					<li>3D Rendering Terrain engine</li>
+					<li>HLSL shader with dynamic pointlight shadows</li>
+				</ul>
+				<div class="project-tech">
+					<span>C#</span>
+					<span>XNA</span>
+					<span>DirectX</span>
+					<span>HLSL</span>
+				</div>
+			</div>
+
+			<div class="project-card">
+				<div class="project-image" style="background-image: url('../Data/Images/ProjectMisc.jpg');">
+				</div>
+				<h3>Games Academy Student Project</h3>
+				<p class="project-date">2004</p>
+				<ul class="project-details">
+					<li>Implemented a turn-based combat framework incorporating player and AI abilities.</li>
+				</ul>
+				<div class="project-tech">
+					<span>Visual Scripting</span>
+					<span>VirTools Engine</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="education" class="education">
+		<h2>Education</h2>
+		<div class="education-grid">
+			<div class="education-card">
+				<div class="education-logo">
+					<i class="fas fa-graduation-cap"></i>
+				</div>
+				<h3>Bachelor of Media Informatics</h3>
+				<p class="education-institution">Berliner Hochschule für Technik</p>
+				<p class="education-date">2008 - 2011</p>
+				<div class="education-links">
+					<a href="https://www.bht-berlin.de/" class="education-link" target="_blank">Visit Institution <i
+							class="fas fa-external-link-alt"></i></a>
+				</div>
+			</div>
+
+			<div class="education-card">
+				<div class="education-logo">
+					<i class="fas fa-gamepad"></i>
+				</div>
+				<h3>Game Design Course</h3>
+				<p class="education-institution">Games Academy Berlin</p>
+				<p class="education-date">2003 - 2004</p>
+				<div class="education-links">
+					<a href="https://games-academy.de/" class="education-link" target="_blank">Visit Institution <i
+							class="fas fa-external-link-alt"></i></a>
+				</div>
+			</div>
+		</div>
+
+
+	</section>
+
+	<section id="contact" class="contact">
+		<h2>Connect With Me</h2>
+		<div class="contact-container">
+			<div class="contact-card">
+				<div class="contact-icon">
+					<i class="fab fa-linkedin"></i>
+				</div>
+				<h3>LinkedIn</h3>
+				<p>Let's connect professionally</p>
+				<a href="https://www.linkedin.com/in/marc-cornelius-blumrich-439b0a82/" class="contact-link"
+					target="_blank">View Profile</a>
+			</div>
+
+			<div class="contact-card">
+				<div class="contact-icon">
+					<i class="fas fa-envelope"></i>
+				</div>
+				<h3>Email</h3>
+				<p>Get in touch directly</p>
+				<a href="mailto:MarcBlumrich@gmail.com" class="contact-link">MarcBlumrich@gmail.com</a>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2024 Marc Blumrich. All rights reserved.</p>
+	</footer>
+</body>
+
+</html>

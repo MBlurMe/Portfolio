@@ -1,0 +1,24 @@
+Portfolio Website
+2025
+Cursor, AI (LLM)
+
+2d Rendering Engine
+2025
+C#, OpenGL, GLSL
+
+    2d Rendering Terrain engine on separate render thread.
+	
+	Static and dynamic lighting.
+	
+	Terrain shaders written in GLSL.
+	
+	
+
+3d Rendering Engine
+2007
+C#, XNA, DirectX, HLSL
+
+	3d Rendering Terrain engine
+	
+	HLSL shader with dynamic pointlight shadows.
+	

@@ -1,0 +1,172 @@
+https://www.youtube.com/watch?v=TjVU8x9f1XU
+Dune: Awakening (Co-Development)
+Senior Game Engineer | 2023 - 2024
+MMO Action Game, Unreal Engine
+
+    Optimized performance for gameplay abilities utilizing Unreal Engine’s Gameplay Ability System.
+
+    Developed advanced group marker functionality, incorporating delayed ping markers on the minimap using server-to-server replication architecture for immersive group gameplay.
+
+    Implemented the foundational Guild system, enabling guild creation, membership management, and role-based permissions using an SQL database on the game server.
+
+    Implemented client-side caching and updates for social information (guild, location, group status) to reduce server database queries.
+
+https://www.youtube.com/watch?v=ENA-0SJWclc
+The Cycle: Frontier
+Senior Game Engineer | 2021 - 2023
+Multiplayer PvEvP Extraction Shooter, Unreal Engine
+
+	Activity & AI Spawning Systems:
+
+        Engineered a system for dynamic spawning and despawning of gameplay elements, including minerals, logic puzzles, loot containers, and guarding AI enemies.
+
+        Added substaintial runtime debugging tools for designers and QA to verify and control spawning.
+
+        Ensured a garbage collection-friendly implementation for level spawn location actors (clustering).
+		
+	Loot System: Implemented a dynamic loot system, collaborating closely with designers to fine-tune loot chances and distribution. Developed a tooling extension for DataTables to visualize the final outcome probability calculations directly in the editor based on weight.
+	
+  
+    Performance & Backend Improvements:
+
+        Optimized minimap data replication, reducing network overhead and improved code cleanness.
+
+        Resolved critical engine streaming crash bugs.
+
+        Implemented a scalable matchmaking solution in Azure and Redis database.
+
+        Implemented a reconnect system to ensure players seamlessly return to active matches after disconnection.
+
+        Provided on-call support for backend stability outside standard work hours.
+  
+
+https://www.youtube.com/watch?v=IReb74_4zIA
+The Cycle
+Senior Game Engineer | 2019 - 2021
+Multiplayer PvEvP Competitive Quest Shooter, Unreal Engine
+
+   Scanner System: Implemented a scanning mechanic that allows players to reveal gameplay-relevant objects with visual effects, UI and audio feedback.
+
+    AI Development:
+
+        Created AI behaviors for monster and robot factions, differentiating their reactions and behaviors.
+
+        Supervised AI Blueprint scripting by designers.
+
+        Developed a robust automation testing framework for AI systems.
+
+    Combat & Gameplay Mechanics:
+
+        Designed and implemented an accurate damage and death recap system, including UI integration.
+
+        Developed the Comm Wheel (UI, replication, and code implementation).
+
+        Built player abilities such as deployable turrets and cloaking mechanics, ensuring AI systems accounted for cloaked players.
+
+    Activities (Repeatable Mini-Game Quests):
+
+        Supervised designer-driven Blueprint implementations for interactive gameplay elements.
+
+        Developed mineable physics-based gameplay objects, including replication and synchronization across clients.
+
+  
+
+https://www.youtube.com/watch?v=iE19Dz_2yF8
+Scavenger (Unreleased)
+Senior Game Engineer | 2017
+Single-Player Stealth Action, Unreal Engine
+
+    Prototyped player abilities for PvE action combat.
+
+    Developed zero-gravity gameplay mechanics, enabling dynamic interactions between floating gameplay objects, including players and AI enemies, with seamless transitions between gravity-enabled and zero-gravity states.
+
+    Implemented AI stealth behaviors, including reactions to noise, vision, and player actions.
+
+    Created procedural level generation for spaceship interiors.
+
+Various Action Game Prototypes
+Senior Game Engineer | 2016 - 2017
+
+    Implemented a replication-optimized foam gun system
+
+    Prototyped third-person melee combat, including animations and active blocking mechanics.
+
+    Designed an RTS/shooter hybrid AI command system for vehicle and troop management across large battle maps.
+
+    Developed a "Down but Not Out" gameplay mechanic using Unreal Engine’s Gameplay Ability System.
+
+    Built an open-world AI spawn system for seamless enemy population.
+	
+https://www.youtube.com/watch?v=dMzN3ClYwP0
+Tinmen (Unreleased)
+Senior Game Engineer | 2016
+Co-op Mech Action Game, Unreal Engine
+
+    Implemented mech player abilities, such as slow-down grenades and cluster missile attacks.
+	
+	Developed a mech loadout system with ui selection.
+
+    Created a third-person mech weapon system featuring miniguns and railguns.
+
+    Implemented AI enemies for both melee and ranged combat.
+
+    Prototyped enemy swarming mechanics, allowing smaller enemies to climb and attack mechs dynamically.
+
+https://www.youtube.com/watch?v=DbaeU_hdWc8
+Dreadnought
+Engineer | 2016
+Multiplayer Third-Person Spaceship Action Game, Unreal Engine
+
+    Optimized physics performance by deferring and clustering API calls without compromising gameplay.
+
+    Resolved critical performance bottlenecks and improved overall code efficiency.
+
+https://www.youtube.com/watch?v=AWFaj4IQ4ro
+Dead Island 2
+Engineer | 2012 – 2015
+Cooperative Zombie Action Game, Unreal Engine
+
+    AI Development:
+
+        Created an advanced zombie sensing system to drive constant player thread.
+		
+		Special AI Attacks like charging, throwing and crawling.
+		
+		Developed distinct AI behaviors for human enemies, differentiating them from zombies.
+
+    Open World AI Spawning System:
+
+        Implemented an open world spawn system with macro and micro control for Designers.
+
+        Integrated spawn animation selection with real-time editor visualization.
+
+        Implemented collision-based spawn validation with in-editor warnings.
+
+        Developed logic for AI spawn/despawn based on player location and visibility.
+
+https://www.youtube.com/watch?v=TjVU8x9f1XU
+Spec Ops: The Line
+Technical Artist, VFX | 2007 – 2012 (Incl. Study Breaks)
+Narrative Shooter, Unreal Engine
+
+    Developed performance-efficient non-AI enemies, enabling level designers to tightly script enemy behaviors.
+
+	Analyzed memory and rendering performance on consoles to guide level designers and artists to reach targets.
+
+    Created weapon muzzle and impact visual effects using Unreal Engine’s Cascade VFX system.
+
+Various Action Game Prototypes
+Technical Artist | 2004 – 2006
+Yager Engine, Lua
+
+    Fine-tuned vehicle driving in a sci-fi themed PhysX demo.
+
+    Provided tooling support for 3ds Max to streamline asset creation.
+	
+	Implemented destructible environment meshes and scripted gameplay logic.	
+
+Games Academy Project
+Game Design Course | 2003 - 2004
+VirTools Engine, Visual scripting
+
+    Implemented a turn-based combat framework incorporating player and AI abilities.
